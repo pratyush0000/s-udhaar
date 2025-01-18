@@ -12,12 +12,12 @@ const Home = () => {
       <div className={styles.container}>
         {/* Left Column */}
         <div className={styles.leftColumn}>
-          <h1 className={styles.textRow}>ASK.</h1>
-          <h1 className={styles.textRow}>PREDICT.</h1>
-          <h1 className={styles.textRow}>ANALYSE.</h1>
+          <h1 className={styles.textRow}>ASK</h1>
+          <h1 className={styles.textRow}>PREDICT</h1>
+          <h1 className={styles.textRow}>ANALYSE</h1>
           <div className={styles.buttonGroup}>
             <Link to="/predict" className={styles.button}>Predict Now</Link>
-            <Link to="/mission" className={styles.button}>Our Mission</Link>
+            <Link to="/aboutus" className={styles.button}>What We Do</Link>
           </div>
         </div>
 

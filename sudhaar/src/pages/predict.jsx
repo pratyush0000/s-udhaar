@@ -117,7 +117,7 @@ const LoanPrediction = () => {
         {/* Left Column */}
         <div className={styles.leftColumn}>
           <h1>Get Predictions Now</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Give us some information, we will do the rest</p>
           <form onSubmit={handleSubmit} className={styles.form}>
             <input
               type="number"
@@ -224,7 +224,7 @@ const LoanPrediction = () => {
           <h2>Prediction Result</h2>
           {prediction ? <p>{prediction}</p> : <p>No result yet. Submit the form to get predictions.</p>}
           <button onClick={handleAnalysis} className={styles.analyseButton}>
-            Analyse
+            Why
           </button>
           {analysis && (
             <div className={styles.analysisResult}>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 .container {
   display: flex;
@@ -16,46 +17,59 @@
 }
 
 .leftColumn h1 {
-  font-family: 'Lexend Deca', sans-serif;
-  font-size: 48px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 70px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #000a0a;
+  margin-top: -75px;
+  color: #6166ea;
 }
 
 .leftColumn p {
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   color: #444;
   margin-bottom: 20px;
+  margin-top: -5px;
 }
 
 .form input, .form select {
   width: 20%;
   margin-left: 20px;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  margin-top: 20px;
+  border: 2px solid #000a0a;
+  background-color: rgb(0,10,10,0.1);
   border-radius: 5px;
+  font-size: 13px;
+  color: #000;
   font-family: 'Lexend Deca', sans-serif;
+}
+
+.form input::placeholder, .form select::placeholder {
+  color: #000a0a; /* Set the placeholder text color */
+  font-family: 'Lexend Deca', sans-serif; /* Match the input font */
+  font-size: 13px; /* Adjust font size if needed */
+  opacity: 1; /* Ensure the color is fully opaque */
 }
 
 button {
   padding: 15px 30px;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.2rem;
   background-color: #000a0a;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 5%;
 }
 
 button:hover {
-  background-color: rgba(50, 70, 150, 0.9);
+  background-color: #6166ea;
 }
 
 .rightColumn {
@@ -66,32 +80,39 @@ button:hover {
     justify-content: center;
     align-items: center;
     border-left: 2px solid #ccc; 
+    color: #6166ea;
     box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1); 
   }
 
 .rightColumn h2 {
-  font-family: 'Lexend Deca', sans-serif;
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #000a0a;
+    font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: -30px;
+  color: #6166ea;
 }
-
+  
 .rightColumn p {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 24px; /* Increase font size */
+  margin-bottom: 15px; /* Reduce spacing below */
+  margin-top: -10px; /* Shift it upwards */
   color: #333;
 }
+  
 
 .analyseButton {
   padding: 15px 30px;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #000a0a;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 2%;
 }
 
 .analyseButton:hover {
-  background-color: rgba(50, 70, 150, 0.9);
+  background-color: #6166ea;
 }

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e2e7eb; /* Purple background */
+    margin: 0; /* Remove default margins */
+  }
+  
+  .missionBox {
+    background-color: #6166ea;
+    border-radius: 40px;
+    padding: 18px 20px 20px 20px;
+    width: 90%; /* Occupies 90% of the width */
+    max-width: 1500px; /* Restricts the maximum width */
+    height: 70%;
+    max-height: 2000px;
+    text-align: left;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    color: #e2e7eb; /* Matches the heading color */
+    font-size: 6rem;
+    padding-left: 60px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+  }
+  
+  .missionText {
+    color: #000;
+    font-size: 4rem;
+    line-height: 1.5;
+    padding-left: 60px;
+    padding-right: 300px;
+    margin-bottom: 24px;
+    margin-top: 50px;
+  }
+  
+  .readMoreButton {
+    background-color: #e0e5f8; /* Light button background */
+    color: #000; /* Button text color */
+    border: none;
+    padding: 18px 20px 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .readMoreButton:hover {
+    background-color: #c6cff2; /* Slightly darker hover effect */
+  }
+  

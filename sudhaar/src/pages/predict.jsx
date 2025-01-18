@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from "../components/Navbar";
 
 const predict = () => {
   return (
     <>
-      Hello from predict
+      <Navbar/>
     </>
   );
 };

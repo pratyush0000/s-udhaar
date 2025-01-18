@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Aboutus.module.css';
+import Navbar from "../components/Navbar";
 
 const Aboutus = () => {
   return(
     <>
-    helo from aboutus
+      <Navbar/>
     </>
   );
 };

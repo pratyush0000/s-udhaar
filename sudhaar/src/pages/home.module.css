@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.container {
+  display: flex;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.leftColumn, .rightColumn {
+  flex: 1; /* Each column takes 50% of the width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px; /* Add padding inside each column */
+}
+
+.leftColumn {
+  margin-left: 5%;
+  /* background-color: #f5f5f5;  */
+}
+
+.rightColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;  /* Keep the column at 50% width of the screen */
+  height: 100%; /* Allow full height */
+  margin-right: 5%;
+}
+
+.textRow {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 130px; /* Increased font size for better emphasis */
+  font-weight: bold;
+  margin: 5px 0; /* Reduced space between text lines */
+  color: #000A0A;
+  text-align: left; /* Align text to the left */
+  padding-left: 20px; /* Control the spacing from the left edge */
+}
+
+.buttonGroup {
+  margin-top: 7%; /* Space between text and buttons */
+  display: flex; /* Change layout to horizontal */
+  flex-direction: row; /* Align buttons horizontally */
+  gap: 20px; /* Space between buttons */
+  padding-left: 20px; /* Shift buttons slightly to the right */
+}
+
+.button {
+  padding: 15px 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #000A0A;
+  color: white; 
+  border: none;
+  border-radius: 35px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 30%;
+  margin-right: 2%;
+}
+
+.button:hover {
+  background-color: RGBA(50, 70, 150, 0.9);
+}
+
+.image {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.animation {
+  width: 100vw;  /* Full viewport width */
+  height: 100vh;  /* Full viewport height */
+  margin: 0 auto;  /* Center the animation horizontally */
+  object-fit: contain;  /* Maintain the aspect ratio */
+  max-width: 1000px;
+}
+
+/* #00E0CA */

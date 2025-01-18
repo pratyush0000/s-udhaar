@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.nav {
+  height: 100px;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures logo and links are spaced correctly */
+  /* background-color: rgba(36, 40, 54, 0); */
+
+
+  position: fixed; /* Fixed at the top of the viewport */
+  top: 0; /* Anchored to the top */
+  z-index: 100; /* Ensure it stays above other content */
+  /* box-shadow: 0 2px 20px rgba(0, 224, 202, 0.2);  */
+  padding: 0 20px; /* Add horizontal padding to avoid touching edges */
+}
+
+ul {
+  margin-right: 5%; /* Reset margin */
+  padding: 0; /* Reset padding */
+  display: flex; /* Horizontally align items */
+  align-items: center; /* Center links vertically */
+  /* background-color: yellow; */
+}
+
+ul li {
+
+  display: inline-block;
+  margin: 0 50px; /* Space between links */
+  font-size: 18px;
+  cursor: pointer;
+  /* background-color: red; */
+  font-size: 20px;
+  /* color: green; */
+}
+
+.logo {
+  height: 110px;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.removea {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.removea:hover {
+  color: rgb(255, 255, 255); /* Bright white on hover */
+}

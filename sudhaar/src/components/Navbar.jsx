@@ -10,7 +10,7 @@ const Navbar=()=>{
             </div>
             <ul>
             <li><Link to="/home" className={styles.removea}>HOME</Link></li>
-            <li><Link to="/product" className={styles.removea}>PRODUCT</Link></li>
+            <li><Link to="/predict" className={styles.removea}>PREDICT</Link></li>
             <li><Link to="/aboutus" className={styles.removea}>ABOUT US</Link></li>
             </ul>
         </nav>
